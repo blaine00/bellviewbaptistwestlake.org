@@ -3,50 +3,21 @@
 	
 <head>
 <title>Bellview Baptist Church of Westlake Louisiana</title>
-<link rel="stylesheet" type="text/css" href="chrometheme/chromestyle.css" />
-<script type="text/javascript" src="chromejs/chrome.js">
 
+<!--CSS for the menu. -->
+<link rel="stylesheet" type="text/css" href="chrometheme/chromestyle.css" />
+
+<!--CSS for the rest of the page -->
+<link rel="stylesheet" type="text/css" href="bellview.css" />
+
+<!--JS for the menu. -->
+<script type="text/javascript" src="chromejs/chrome.js">
 /***********************************************
 * Chrome CSS Drop Down Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
 * This notice MUST stay intact for legal use
 * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
 ***********************************************/
-
 </script>
-<style type = "text/css">
-table {
-	width: 800px;
-	padding: 0px;
-	background-color:lightgrey;
-}
-
-p.title1 {
-	font-size: 48px;
-	text-align:left;
-}
-
-td.logo {
-	width: 243px;
-}
-
-td.title1 {
-	vertical-align:top;
-}
-
-
-body {
-	font-family: sans-serif;
-}
-
-
-.menu:hover {
-	background-color:lightblue;
-}
-
-	
-	
-
-</style>
 
 </head>
 
@@ -54,7 +25,7 @@ body {
 
 <center>
 
-<table class="title1" border="0">
+<table class="titleTable" border="0">
 <tr> <td class="logo">
 <img src="bannerCross.jpg" alt="Bellview Cross">
 </td>
@@ -88,7 +59,7 @@ Other Stuff:<br>
 
 <!--1st drop down menu --> 
 <div id="dropmenu1" class="dropmenudiv">
-<a href="">Children's</a>
+<a href="page2.html" target="docBody">Children's</a>
 <a href="">Youth</a>
 <a href="">Men's</a>
 <a href="">Woman's</a>
@@ -106,16 +77,7 @@ cssdropdown.startchrome("chromemenu")
 </script>
 
 
-<table border="0">
-<tr> <td>
-<br>
-This will be the body of the document.
-
-
-
-</td>
-</tr>
-</table>
+<iframe name="docBody" height="1000" width="800" frameborder="0" src="page1.html"></iframe>
 
 </center>
 
