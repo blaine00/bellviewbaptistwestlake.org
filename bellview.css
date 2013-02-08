@@ -1,7 +1,7 @@
 table {
 	width: 800px;
 	padding: 0px;
-	background-color:lightgrey;
+	background-color:#ADC299;
 	border: 0px;
 }
 
@@ -10,7 +10,7 @@ table {
 	text-align:left;
 }
 
-.logo td {
+.logo {
 	width: 243px;
 }
 
@@ -19,7 +19,7 @@ table {
 }
 
 .menuBar:Hover {
-	background-color:white;
+	background-color:#CEDAC2;
 	}
 
 
