@@ -11,7 +11,8 @@ table {
 }
 
 .logo {
-	width: 243px;
+	height:270px;
+	background-image:url("mainlogo.jpg");
 }
 
 .titleTable td {
