@@ -1,7 +1,6 @@
 table {
 	width: 800px;
 	padding: 0px;
-	background-color:#ADC299;
 	border: 0px;
 }
 
@@ -17,6 +16,10 @@ table {
 
 .titleTable td {
 	vertical-align:top;
+}
+
+.menuTable {
+	background-color:#ADC299;
 }
 
 .menuBar:Hover {
