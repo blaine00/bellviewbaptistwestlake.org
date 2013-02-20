@@ -54,15 +54,18 @@ body {
 .menuBar:Hover {
 	background-color:#CEDAC2;
 	}
+	
+.menuBar {
+	width: 20%;
+	}
 
 
 .centerAlignBody {
 	background-color:lightgrey;
-	text-aligh:center;
+	text-align:center;
 }
 
 .leftAlignBody {
 	background-color:lightgrey;
 	text-aligh:left;
 }
-

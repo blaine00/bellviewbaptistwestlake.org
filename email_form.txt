@@ -1,0 +1,9 @@
+To: blaine@bellviewbaptistwestlake.org
+Subject: Website Form
+
+How did you find the website?			[foundsite]
+What do you like about it?			[likes]
+What do you dislike about it?			[dislike]
+What would you like us to add to the site? 	[add]
+Would you like us to contact you back?		[contact]
+What is your email address?			[email]
